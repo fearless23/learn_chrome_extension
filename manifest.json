@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "RaterFox",
+  "description": "Description of Chrome Extension",
+  "version": "1",
+  "author": "Jaspreet Singh",
+  "browser_action": {
+    "default_icon": "tab-icon.jpg",
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": { "newtab": "newtab.html" },
+  "permissions": ["activeTab"]
+}
